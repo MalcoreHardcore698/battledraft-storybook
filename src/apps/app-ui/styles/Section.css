@@ -1,0 +1,26 @@
+.ui-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-section * {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-section h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    opacity: .25;
+    margin-bottom: 15px;
+}
+
+.ui-section.center h2 {
+    justify-content: center;
+}
+
+.ui-section h2 svg {
+    margin-right: 15px;
+}
